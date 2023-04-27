@@ -3,8 +3,4 @@ Projeto em grupo proposto pela Trybe - Um jogo Trivia desenvolvido utilizando as
 
 Grupo: 
 
-https://github.com/ramiro-sena
-https://github.com/euHec
-https://github.com/Alvaro-Bettoni
-https://github.com/BernardoJFilho
-https://github.com/Samaeltw
+Ramiro: https://github.com/ramiro-sena | Hector: https://github.com/euHec | Alvaro: https://github.com/Alvaro-Bettoni | Bernardo: https://github.com/BernardoJFilho | Samael: https://github.com/Samaeltw
