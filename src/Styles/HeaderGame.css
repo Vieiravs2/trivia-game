@@ -1,0 +1,145 @@
+@media screen and ( max-width : 414px ) {
+
+  .header-game {
+    align-items: center;
+    background-color: white;
+    border: none;
+    display: flex;
+    height: 113px;
+    justify-content: flex-end;
+    padding: 15px 35px;
+    width: 100%;
+  }
+
+  .logo-game {
+    left: 220px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+  }
+
+  .img-game {
+    border-radius: 20px;
+    height: 37px;
+    margin-right: 5px;
+    width: 37px;
+  }
+
+  .name-game {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .score-game {
+    align-items: center;
+    display: inline-flex;
+    font-size: 15px;
+    height: 20px;
+    width: 120px;
+  }
+
+  .icon-star {
+    color: #f9ba18;
+    height: 25px;
+    width: 25px;
+  }
+
+}
+
+@media screen and ( min-width : 415px ) and ( max-width : 768px ) {
+
+  .header-game {
+    align-items: center;
+    background-color: white;
+    border: none;
+    display: flex;
+    height: 113px;
+    justify-content: flex-end;
+    padding: 15px 35px;
+    width: 100%;
+  }
+
+  .logo-game {
+    left: 220px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+  }
+
+  .img-game {
+    border-radius: 20px;
+    height: 37px;
+    margin-right: 5px;
+    width: 37px;
+  }
+
+  .name-game {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .score-game {
+    align-items: center;
+    display: inline-flex;
+    font-size: 15px;
+    height: 20px;
+    width: 120px;
+  }
+
+  .icon-star {
+    color: #f9ba18;
+    height: 25px;
+    width: 25px;
+  }
+
+}
+
+@media screen and ( min-width : 769px ) {
+
+  .header-game {
+    align-items: center;
+    background-color: white;
+    border: none;
+    display: flex;
+    height: 113px;
+    justify-content: flex-end;
+    padding: 15px 35px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .logo-game {
+    left: 220px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+  }
+
+  .img-game {
+    border-radius: 20px;
+    height: 37px;
+    margin-right: 5px;
+    width: 37px;
+  }
+
+  .name-game {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .score-game {
+    align-items: center;
+    display: inline-flex;
+    font-size: 15px;
+    height: 20px;
+    width: 120px;
+  }
+
+  .icon-star {
+    color: #f9ba18;
+    height: 25px;
+    width: 25px;
+  }
+
+}

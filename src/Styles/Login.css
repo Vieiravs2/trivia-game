@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap') ;
+
+@media screen and ( max-width : 414px ) {
+
+  body {
+    background-image: url('../image/background.png');
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .container-login {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .log {
+    display: inline-block;
+    margin-top: 44px;
+    width: 230px;
+  }
+
+  .input-login {
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    font-family: Verdana , Tahoma , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 90%;
+  }
+
+  .input-login ::placeholder {
+    color: #6b7588;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .button-play {
+    background-color: #2fc18c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+  }
+
+  .button-play :disabled {
+    background-color: #436e5e;
+  }
+
+  .button-settings {
+    background-color: #35906f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+  }
+}
+
+@media screen and ( min-width : 415px ) and ( max-width : 768px ) {
+
+  .container-login {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .log {
+    display: inline-block;
+    margin-top: 44px;
+    width: 230px;
+  }
+
+  .input-login {
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    font-family: Verdana , Geneva , Tahoma , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 90%;
+  }
+
+  .input-login ::placeholder ::placeholder {
+    color: #6b7588;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .button-play {
+    background-color: #2fc18c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+  }
+
+  .button-play :disabled {
+    background-color: #436e5e;
+  }
+
+  .button-settings {
+    background-color: #35906f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+  }
+}
+
+@media screen and ( min-width : 769px ) {
+
+  .container-login {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 560px;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-top: 44px;
+    width: 230px;
+  }
+
+  .input-login {
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    font-family: Verdana , Geneva , Tahoma , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 90%;
+  }
+
+  .input-login ::placeholder {
+    color: rgb(107, 117, 136);
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .button-play {
+    background-color: #2fc18c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+  }
+
+  .button-play :disabled {
+    background-color: #436e5e;
+  }
+
+  .button-settings {
+    background-color: #35906f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.281);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+  }
+}

@@ -1,0 +1,335 @@
+@media screen and ( max-width : 414px ) {
+
+  .container-ranking {
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 13px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 488px;
+    margin-top: 100px;
+    width: 489px;
+  }
+
+  .logo-ranking {
+    height: 200px;
+    position: relative;
+    top: -100px;
+    width: 190px;
+  }
+
+  .title-ranking {
+    color: #3c1b7a;
+    font-family: Epilogue , sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -90px;
+    width: 100%;
+  }
+
+  .list-ranking {
+    height: 300px;
+    overflow-y: scroll;
+    position: relative;
+    top: -80px;
+    width: 80%;
+  }
+
+  li {
+    background: #ebebeb;
+    border-radius: 100px;
+    display: flex;
+    height: 55px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  li p {
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin: auto 20px;
+  }
+
+  .detail-score {
+    align-items: center;
+    background: white;
+    border-radius: 100px;
+    box-shadow: 1px 4px 22px rgba(0, 0, 0, 0.25);
+    display: flex;
+    font-size: 25px;
+    height: 55px;
+    justify-content: space-evenly;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 150px;
+  }
+
+  li img {
+    border-radius: 18px;
+    height: 40px;
+    left: 10px;
+    position: relative;
+    top: 8px;
+  }
+
+  .icon-ranking {
+    color: #f9ba18;
+    height: 35px;
+    width: 35px;
+  }
+
+  .btn-hanking {
+    background: #2fc18c;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    text-transform: uppercase;
+    top: -40px;
+    width: 386px;
+  }
+
+}
+
+@media screen and ( min-width : 415px ) and ( max-width : 768px ) {
+
+  .container-ranking {
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 13px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 488px;
+    margin-top: 100px;
+    width: 489px;
+  }
+
+  .logo-ranking {
+    height: 200px;
+    position: relative;
+    top: -100px;
+    width: 190px;
+  }
+
+  .title-ranking {
+    color: #3c1b7a;
+    font-family: Epilogue , sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -90px;
+    width: 100%;
+  }
+
+  .list-ranking {
+    height: 300px;
+    overflow-y: scroll;
+    position: relative;
+    top: -80px;
+    width: 80%;
+  }
+
+  li {
+    background: #ebebeb;
+    border-radius: 100px;
+    display: flex;
+    height: 55px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  li p {
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin: auto 20px;
+  }
+
+  .detail-score {
+    align-items: center;
+    background: white;
+    border-radius: 100px;
+    box-shadow: 1px 4px 22px rgba(0, 0, 0, 0.25);
+    display: flex;
+    font-size: 25px;
+    height: 55px;
+    justify-content: space-evenly;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 150px;
+  }
+
+  li img {
+    border-radius: 18px;
+    height: 40px;
+    left: 10px;
+    position: relative;
+    top: 8px;
+  }
+
+  .icon-ranking {
+    color: #f9ba18;
+    height: 35px;
+    width: 35px;
+  }
+
+  .btn-hanking {
+    background: #2fc18c;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    text-transform: uppercase;
+    top: -40px;
+    width: 386px;
+  }
+
+}
+
+@media screen and ( min-width : 769px ) {
+
+  .container-ranking {
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 13px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 488px;
+    margin-top: 100px;
+    width: 489px;
+  }
+
+  .logo-ranking {
+    height: 200px;
+    position: relative;
+    top: -100px;
+    width: 190px;
+  }
+
+  .title-ranking {
+    color: #3c1b7a;
+    font-family: Epilogue , sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -90px;
+    width: 100%;
+  }
+
+  .list-ranking {
+    height: 300px;
+    overflow-y: scroll;
+    position: relative;
+    top: -80px;
+    width: 80%;
+  }
+
+  li {
+    background: #ebebeb;
+    border-radius: 100px;
+    display: flex;
+    height: 55px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  li p {
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin: auto 20px;
+  }
+
+  .detail-score {
+    align-items: center;
+    background: white;
+    border-radius: 100px;
+    box-shadow: 1px 4px 22px rgba(0, 0, 0, 0.25);
+    display: flex;
+    font-size: 25px;
+    height: 55px;
+    justify-content: space-evenly;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 150px;
+  }
+
+  li img {
+    border-radius: 18px;
+    height: 40px;
+    left: 10px;
+    position: relative;
+    top: 8px;
+  }
+
+  .icon-ranking {
+    color: #f9ba18;
+    height: 35px;
+    width: 35px;
+  }
+
+  .btn-hanking {
+    background: #2fc18c;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    text-transform: uppercase;
+    top: -40px;
+    width: 386px;
+  }
+
+}

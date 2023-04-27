@@ -1,0 +1,253 @@
+@media screen and ( max-width : 414px ) {
+
+  .header-game {
+    align-items: center;
+    background-color: white;
+    border: none;
+    display: flex;
+    height: 113px;
+    justify-content: flex-end;
+    padding: 15px 35px;
+    width: 100%;
+  }
+
+  .logo-game {
+    left: 220px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+  }
+
+  .img-game {
+    border-radius: 20px;
+    height: 37px;
+    margin-right: 5px;
+    width: 37px;
+  }
+
+  .name-game {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .score-game {
+    align-items: center;
+    display: inline-flex;
+    font-size: 15px;
+    height: 20px;
+    width: 120px;
+  }
+
+  .icon-star {
+    color: #f9ba18;
+    height: 25px;
+    width: 25px;
+  }
+
+}
+
+@media screen and ( min-width : 415px ) and ( max-width : 768px ) {
+
+  .header-game {
+    align-items: center;
+    background-color: white;
+    border: none;
+    display: flex;
+    height: 113px;
+    justify-content: flex-end;
+    padding: 15px 35px;
+    width: 100%;
+  }
+
+  .logo-game {
+    left: 220px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+  }
+
+  .img-game {
+    border-radius: 20px;
+    height: 37px;
+    margin-right: 5px;
+    width: 37px;
+  }
+
+  .name-game {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .score-game {
+    align-items: center;
+    display: inline-flex;
+    font-size: 15px;
+    height: 20px;
+    width: 120px;
+  }
+
+  .icon-star {
+    color: #f9ba18;
+    height: 25px;
+    width: 25px;
+  }
+
+}
+
+@media screen and ( min-width : 769px ) {
+
+  .container-feedback {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo-feedback {
+    width: 150px;
+  }
+
+  .header-feedback {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+  }
+
+  .container-infor-feedback {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.268);
+    display: flex;
+    flex-direction: column;
+    height: 278px;
+    margin-top: 130px;
+    width: 439px;
+  }
+
+  .img-feedback {
+    border-radius: 50%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: -106px;
+    width: 200px;
+  }
+
+  .name-feedback {
+    display: none;
+  }
+
+  .score-feedback {
+    display: none;
+  }
+
+  .feedback-win {
+    color: #2fc18c;
+    font-family: Epilogue , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .feedback-lose {
+    color: #ea5d5d;
+    font-family: Epilogue , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    height: 71px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .win {
+    border: 4px solid #2fc18c;
+    filter: drop-shadow(1px 1px 9px #2fc18c);
+  }
+
+  .lose {
+    border: 4px solid #ea5d5d;
+    filter: drop-shadow(1px 1px 9px #ea5d5d);
+  }
+
+  .infor1-feedback {
+    border-radius: nullpx;
+    color: #b5b5b5;
+    display: flex;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .infor1-feedback p {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .infor2-feedback {
+    border-radius: nullpx;
+    color: #b5b5b5;
+    display: flex;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .infor2-feedback p {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .button-ranking {
+    background-color: #00d5e2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.268);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    letter-spacing: 0.12em;
+    line-height: 24px;
+    margin-right: 5px;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+  }
+
+  .button-again {
+    background-color: #2fc18c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.268);
+    color: white;
+    font-family: Epilogue , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    letter-spacing: 0.12em;
+    line-height: 24px;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+  }
+}

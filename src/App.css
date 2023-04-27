@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./image/background.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.red-border {
+  border: 3px solid red;
+}
+
+.green-border {
+  border: 3px solid rgb(6, 240, 15);
+}
